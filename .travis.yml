@@ -6,3 +6,13 @@ xcode_sdk: iphonesimulator9.2
 
 script:
     - xcodebuild clean build -sdk iphonesimulator -scheme TravisExample
+
+post_install do |installer|
+installer.pods_project.targets.each do |target|
+if target.name == ''
+target.build_configurations.each do |config|
+config.build_settings['SWIFT_VERSION'] = 
+end
+end
+end
+end

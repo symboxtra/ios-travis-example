@@ -3,3 +3,6 @@ osx_image: xcode8.3
 xcode_project: TravisExample.xcodeproj
 xcode_scheme: TravisExample
 xcode_sdk: iphonesimulator9.2
+
+script:
+    - xcodebuild clean build -sdk iphonesimulator -workspace TravisExample.xcodeproj -scheme TravisExample

@@ -5,4 +5,4 @@ xcode_scheme: TravisExample
 xcode_sdk: iphonesimulator9.2
 
 script:
-    - xcodebuild clean build -sdk iphonesimulator -workspace TravisExample.xcodeproj -scheme TravisExample
+    - xcodebuild clean build -sdk iphonesimulator -scheme TravisExample

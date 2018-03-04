@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/jmcker/ios-travis-example.svg?branch=master
-)](https://travis-ci.org/jmcker/ios-travis-example)
+[![Build Status](https://travis-ci.org/symboxtra/ios-travis-example.svg?branch=master
+)](https://travis-ci.org/symboxtra/ios-travis-example)
 
 # Integración Continua de una App iOS con Travis CI
 
